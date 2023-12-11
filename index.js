@@ -14,6 +14,9 @@ app.use(express.urlencoded({
 ))
 
 app.use('/furnitures', furnitureRouter)
+app.use('*',  (req, res) =>{
+    res.status(404).send("La url no existe")
+})
 
 app.listen(PORT, HOST, () =>{
     console.log(`Servidor inicializado en http://${HOST}:${PORT}`)
