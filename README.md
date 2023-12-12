@@ -12,7 +12,7 @@ This is a backend challenge:
     <li>Control non existent routes</li>
 </ul>
 
-| Methods       | URL                     |  Description                   |
+| Methods       | ENDPOINTS               |  Description                   |
 | ------------- |:-----------------------:|:------------------------------:|
 | GET           |/furnitures              |    Get all furnitures unordered|
 | GET           |/furnitures/:id          | Get furniture by code          |
